@@ -6,107 +6,43 @@ import java.util.*;
  * 
  */
 public class EnterpriseEntity {
-
-    /**
-     * Default constructor
-     */
     public EnterpriseEntity() {
     }
+    private String Name;
+    private String Email;
+    private String TaxAddress;
+    private String PhoneNumber;
+    private String Nit;
+    private int ID;
+    private List<VehicleEntity> Inventory;
 
-    /**
-     * 
-     */
-    public String Name;
-
-    /**
-     * 
-     */
-
-    /**
-     * 
-     */
-    public String Email;
-
-    /**
-     * 
-     */
-    public String TaxAddress;
-
-    /**
-     * 
-     */
-    public String PhoneNumber;
-
-    /**
-     * 
-     */
-    public String Nit;
-
-    /**
-     * 
-     */
-    public int ID;
-
-    /**
-     * 
-     */
-    public List<VehicleEntity> Inventory;
-
-    /**
-     * @return
-     */
     public String getName() {
-        // TODO implement here
         return "";
     }
 
-    /**
-     * @param name 
-     * @return
-     */
     public void setName(String name) {
-        // TODO implement here
         
     }
 
-    /**
-     * @return
-     */
     public String getEmail() {
-        // TODO implement here
         return null;
     }
 
-    /**
-     * @param email 
-     * @return
-     */
     public void setEmail(String email) {
-        // TODO implement here
         
     }
 
-    /**
-     * @param address 
-     * @return
-     */
+    
     public void setTaxAddress(String address) {
-        // TODO implement here
         
     }
 
-    /**
-     * @return
-     */
+   
     public String getTaxAddress() {
-        // TODO implement here
+   
         return null;
     }
 
-    /**
-     * @param phone 
-     * @return
-     */
     public void setPhoneNumber(String phone) {
         // TODO implement here
         

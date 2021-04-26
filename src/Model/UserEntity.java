@@ -6,31 +6,29 @@ import java.util.*;
  */
 public abstract class UserEntity {
 
-    /**
-     * Default constructor
-     */
+    
     public UserEntity() {
     }
 
     /**
      * 
      */
-    public String Alias;
+    private String Alias;
 
     /**
      * 
      */
-    public String Role;
+    private String Role;
 
     /**
      * 
      */
-    public String Task;
+    private String Task;
 
     /**
      * 
      */
-    public int ID;
+    private int ID;
 
     /**
      * @return

@@ -16,37 +16,37 @@ public class VehicleEntity {
     /**
      * 
      */
-    public int Price;
+    private int Price;
 
     /**
      * 
      */
-    public int MinPrice;
+    private int MinPrice;
 
     /**
      * 
      */
-    public int MaxPrice;
+    private int MaxPrice;
 
     /**
      * 
      */
-    public String Trademark;
+    private String Trademark;
 
     /**
      * 
      */
-    public String Model;
+    private String Model;
 
     /**
      * 
      */
-    public EnterpriseEntity Owner;
+    private EnterpriseEntity Owner;
 
     /**
      * 
      */
-    public int ID;
+    private int ID;
 
     /**
      * @return
