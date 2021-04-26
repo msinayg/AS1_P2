@@ -1,42 +1,26 @@
-
+package service;
 import java.util.*;
 import model.EnterpriseEntity;
 import model.UserEntity;
 
-/**
- * 
- */
 public class UserService {
 
-    /**
-     * Default constructor
-     */
+    
     public UserService() {
     }
 
-    /**
-     * @param User 
-     * @return
-     */
     public void createUser(UserEntity User) {
-        // TODO implement here
+
         
     }
 
-    /**
-     * @param id 
-     * @return
-     */
     public UserEntity getUser(int id) {
-        // TODO implement here
         return null;
     }
 
-    /**
-     * @return
-     */
+
     public List<UserEntity> getAllUsers() {
-        // TODO implement here
+
         return null;
     }
 

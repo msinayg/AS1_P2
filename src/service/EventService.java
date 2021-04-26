@@ -1,4 +1,5 @@
-
+package service;
+import dao.EventDao;
 import java.util.*;
 import model.EnterpriseEntity;
 import model.EventEntity;
@@ -19,8 +20,8 @@ public class EventService {
      * @return
      */
     public void createEvent(EventEntity Event) {
-        // TODO implement here
-        
+        EventDao e = new EventDao();
+        e.createEvent(Event);
     }
 
     /**

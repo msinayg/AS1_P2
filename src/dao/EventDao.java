@@ -1,7 +1,6 @@
 package dao;
 import java.util.*;
 import model.EventEntity;
-
 /**
  * 
  */
@@ -45,7 +44,7 @@ public class EventDao {
      */
     public void createEvent(EventEntity Event) {
         // TODO implement here
-        
+        System.out.println("Se ha creado el evento el día: " + Event.getDate() + " a las: " + Event.getTime() );
     }
 
 }

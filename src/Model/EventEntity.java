@@ -16,12 +16,12 @@ public class EventEntity {
     /**
      * 
      */
-    public String Date;
+    private String Date;
 
     /**
      * 
      */
-    public String Time;
+    private String Time;
 
     /**
      * 
@@ -32,16 +32,14 @@ public class EventEntity {
      * @return
      */
     public void setDate(String date) {
-        // TODO implement here
-        
+        this.Date = date;
     }
 
     /**
      * @return
      */
     public String getDate() {
-        // TODO implement here
-        return null;
+        return this.Date;
     }
 
     /**
@@ -49,7 +47,7 @@ public class EventEntity {
      * @return
      */
     public void setTime(String time) {
-        // TODO implement here
+        this.Time = time;
         
     }
 
@@ -57,8 +55,7 @@ public class EventEntity {
      * @return
      */
     public String getTime() {
-        // TODO implement here
-        return null;
+        return this.Time;
     }
 
     /**
